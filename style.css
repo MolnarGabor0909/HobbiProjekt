@@ -1,0 +1,8 @@
+.nav, header{
+    animation: bg 3s 1s infinite both alternate;
+}
+
+@keyframes bg {
+    from{background-color: blue;}
+    to{background-color:violet;}
+}
