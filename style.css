@@ -4,11 +4,7 @@ body{
 #asd{
     color: rgba(255, 255, 255, 0.377);
 }
-#lol{
-    color: rgba(255, 255, 255, 0.575);
-    text-align: start;
-    font-family: Arial, Helvetica, sans-serif;
-}  
+  
 .video{
     box-shadow: 10px 10px 10px #333, -10px -10px 10px #333;
     padding: 20px;
@@ -27,4 +23,18 @@ body{
 }
 footer{
     color: rgba(255, 255, 255, 0.527);
+}
+@keyframes szivarvany {
+    0% { color: #ff0000; } 
+    16.666% { color: #ff7f00; } 
+    33.333% { color: #ffff00; } 
+    50% { color: #00ff00; } 
+    66.666% { color: #0000ff; } 
+    100% { color: #9400d3; } 
+}
+
+#csilivili {
+    animation: szivarvany 5s infinite both;
+    text-shadow:3px 3px 10px grey;
+    font-size: 25px;
 }
