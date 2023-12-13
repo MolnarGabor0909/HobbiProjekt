@@ -131,3 +131,42 @@
 
       <video loop  autoplay muted class="video">
             <source src="img/video.webm" type="video/webm">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+</div>
+
+
+aram 
+
+Az "ARAM" (All Random All Mid) egy játékmód a League of Legends-ben, amely egy csapatközpontú, intenzív és kaotikus élményt nyújt.
+
+1. **Csapatok és Pályaterület:**
+   - Két csapat, általában 5 fős, véletlenszerűen kiválasztott hőseivel játszanak egymás ellen.
+   - A csapatok egy egyenes, középen található folyosón, a "Mid Lane"-en találkoznak, tehát nincs lehetőség oldalakra vagy más területekre menni.
+
+2. **Véletlenszerű Hősök:**
+   - A játékosok nem választhatják ki saját hőseiket, hanem véletlenszerűen kapnak egyet a rendelkezésre álló hősök közül.
+   - A hősök kiválasztása a "ARAM" módhoz van optimalizálva, és a célja, hogy minden játékos egyenlő esélyekkel kezdje a játékot.
+
+3. **Gyors Játékmenet:**
+   - Az ARAM meccsek általában rövidebbek, mint a hagyományos játékmódokban, mivel a játékosok gyorsabban találkoznak és kevésbé terjednek szét a pályán.
+
+4. **Esélyjáték és Kihívások:**
+   - A véletlenszerű hősök miatt minden meccs egyedülálló, és a játékosoknak alkalmazkodniuk kell a hőseik képességeihez és szerepköréhez.
+   - Az ARAM gyakran hangsúlyozza a kreativitást és a stratégiai alkalmazkodást a változó helyzetekhez.
+
+5. **ARAM Pénz és Butik:**
+   - A játékosok a "Howling Abyss" nevű pályán játszanak, ahol az alapító esélyek és a kevésbé kötött játékmenet mellett egy speciális áruház is rendelkezésre áll.
+   - Az ARAM-ban megszerezhető pénzzel a játékosok a "Butik" nevű boltban vásárolhatnak különböző tárgyakat, amelyek a hőseiket erősítik és segíthetnek a meccs során.
+
+Az ARAM játékmód a versenyszellem és a szórakozás kombinációját kínálja, kiváló választás lehet egy laza és szórakoztató játékélményért.

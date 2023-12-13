@@ -7,36 +7,171 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/44360f20e9.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-dark text-secondary">
     <header>
+      <div class="row">
+        <div class="col-4 col-md-12">
         <nav class="nav navbar navbar-expand-lg text-bg-dark">
                 <a class="navbar-brand" id="csilivili" href="https://www.leagueoflegends.com/hu-hu/" target="_blank">
                     <img src="img/navbar-removebg-preview.png" alt="Logo" width="30px" class="d-inline-block align-text-top">
                     League of Legends
                   </a>
               <div class=" navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav"> 
                   <li>
-                    <a href="index.html" class="nav-link" id="asd">Kezdőlap <i class="fa-solid fa-house"></i></a>
-                  </li>  
-                  <li>
-                      <a href="kialakulas.html" class="nav-link" id="asd">Kialakulás <i class="fa-solid fa-gears"></i></a>
+                      <a href="#Kialakulása" class="nav-link" id="asd">Kialakulás <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                      </svg></a>
                     </li>
                   <li class="nav-item">
-                    <a href="torenet.html" class="nav-link" id="asd">Történet <i class="fa-solid fa-book"></i></a>
+                    <a href="#Története" class="nav-link" id="asd">Történet <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                      <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                    </svg></a>
                   </li>
                   <li>
-                    <a href="profilom.html" class="nav-link" id="asd">Profilom <i class="fa-solid fa-user"></i></a>
+                    <a href="Játékinfo" class="nav-link" id="asd">Játékinfók <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
+                      <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1"/>
+                      <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z"/>
+                    </svg></a>
                   </li>
                   <li>
-                    <a href="profilom.html" class="nav-link" id="asd">Játékinfók <i class="fa-solid fa-user"></i></a>
+                    <a href="profilom.html" class="nav-link" id="asd">Profilom <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                      <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z"/>
+                    </svg></a>
                   </li>
                 </ul>
             </div>
           </nav>
-          
+        </div>
+          <div class="col-6 ps-5 pt-5 p-md-0 col-md-12">
+    <video loop muted autoplay class="video">
+      <source src="img/video.webm">
+    </div>
+    </div>
+    </video>
+    </header>
+    <main class="container">
+      <div class="row" id="Kialakulás">
+        <div class="col-md-6 col-12">
+          <div class="display-6">Kialakulása</div>
+        <p class="lead">A League of Legends hivatalosan 2009. október 27-én jelent meg. A játék első napokban csak Észak-Amerikában és Európában volt elérhető, majd később terjeszkedett más régiókba is.
+          <br>
+           A Riot Games, egy Los Angeles-i székhelyű videojáték-fejlesztő cég készítette a League of Legendset. A vállalatot 2006-ban alapították Marc "Tryndamere" Merrill és Brandon "Ryze" Beck.
+          <br>
+           A League of Legends egy Dota (Defense of the Ancients) nevű modifikációra épül, ami a Warcraft III: Reign of Chaos és a Warcraft III: The Frozen Throne stratégiai játékokra lett készítve. A Dota egy közkedvelt mod volt, amit a játékosok a Warcraft III módosító eszközeivel hoztak létre.</p>
+          <hr>
+        </div>
+        <div class="col-md-6 col-12"></div>
+      </div>
+      <div class="row"  id="Történet">
+        <div class="col-md-6 col-12"></div>
+        <div class="col-md-6 col-12">
+          <div class="display-6 py-3">Története</div>
+        <p class="lead">A League of Legends története egy gazdag és bonyolult világba kalauzolja el a játékosokat, tele izgalmas karakterekkel, konfliktusokkal és fantasztikus eseményekkel. Azonban fontos megjegyezni, hogy a játék története nem közvetlenül része a játékmenetnek, hanem inkább a háttérben zajló eseményeket és karaktereket bemutatja, amelyek hozzájárulnak a LoL univerzumához.
+          <br>
+          A Runeterra nevű világ ahol a játék történik, egy olyan hely, ahol mágia és technológia egyaránt megtalálható. A világ két hatalmas entitás, a jó érdekében dolgozó Demacia és a gonosz erőket felkaroló Noxus közötti feszültségeken alapul. A konfliktusokat erősítik a különféle területeken élő különböző fajok, népek és szervezetek.
+          <br>
+          A játékban található hősök, vagy ahogy nevezik, a "championok," különböző háttérrel rendelkeznek. Például Garen Demaciából származik, egy hűséges katona, míg Darius Noxusból való, egy erőteljes hadvezér. A karaktereknek egyedi képességeik és történetük van, amelyek szorosan kapcsolódnak a Runeterra világához.
+          <br>
+          Az egyik kulcsfontosságú esemény a játékban a "Mágia és Ütközés" (Rune Wars) nevű háború, amely során a mágikus erőforrások felhasználása miatt konfliktusok törtek ki a világ különböző részein. Ennek eredményeként létrejött az Intézmény, egy szervezet, amely a mágia használatának szabályozására és ellenőrzésére jött létre.
+          <br>
+          A League of Legends története a sötét mágia és ősi erők körül forog, amelyek fenyegetik a Runeterra békéjét. A játékosok találkozhatnak olyan karakterekkel, mint Ryze, aki egy ősi varázstárgyat keres, hogy megakadályozza annak elpusztítását, vagy Vayne, aki a Night Hunters nevű szervezet tagja, és célja a sötét erőket kiirtani a világból.
+          <br>
+          Azonban nemcsak konfliktusok és háborúk jellemzik a Runeterra világát. Vannak barátságosabb entitások is, mint ahogy azt a Yordle nevű kis teremtmények képviselik, vagy a Bandle City nevű város, ahol élnek. A Freljord régió a hideg északon, ahol kemény törzsi népek élnek, és ahol a jéggel kapcsolatos erők és titkok uralkodnak.
+          <br>
+          A karakterek között fellelhetőek olyanok is, akik az élet és halál, az idő és tér manipulálására képesek, mint Zilean, aki a korok őrzőjeként a mágia és idő titkait őrzi.
+          <br>
+          A LoL univerzum folyamatosan bővül és fejlődik. Az események és karakterek összefonódnak, ahogy újabb területeket fedeznek fel, és újabb veszélyekkel néznek szembe. A Riot Games rendszeresen ad ki frissítéseket és történeteket, hogy további mélységet és részletességet adjon a Runeterra világának, és hogy a játékosoknak mindig legyenek új kihívások és történetek felfedezniük.
+        </p>
+        <hr>
+      </div>
+      </div>
+      <div class="row" id="Játékinfo">
+        <div class="col-12 ">
+          <div class="card mb-3">
+            <img src="img/idezok.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Idézők szurdoka</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="card mb-3">
+            <img src="img/aramm.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aram</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="E-sport">
+        <div class="col-md-6 col-12"></div>
+        <div class="col-md-6 col-12">
+          <div class="display-6 py-3">E-sport</div>
+        <p class="lead">
+          A League of Legends (LoL) e-sport története rendkívül gazdag és dinamikus, és a játék kiemelkedik az e-sport színtéren. Az alábbiakban összefoglalom a LoL e-sport történetét a kezdetektől napjainkig:
+          <br>
+          Kezdetek (2009–2010): A League of Legends e-sport színtere az első években kisebb rendezvényekből és online versenyekből állt. A Riot Games támogatta és ösztönözte a közösségi versenyzést, amelyek a játékosokat összehozták, és kialakították az alapjait a versenyszerű játéknak.
+          <br>
+          Season One World Championship (2010): 2010-ben az első nagyszabású világbajnokságot rendezték meg. A torneóra a DreamHack Winter fesztiválon került sor, és ekkoriban a díjalap összege is elkezdett növekedni. A Fnatic csapata nyerte meg az eseményt.
+          <br>
+          Rendes időszak (2011–2012): A következő években a LoL e-sport színtere gyorsan növekedett. Az Egyesült Államokban és Európában egyre több profi csapat alakult meg, és a régiók közötti rivalizálások elkezdődtek. A Riot Games szponzorált további nemzetközi versenyeket is, amelyek elősegítették a játék népszerűségét.
+          <br>
+          A legnagyobb torna növekedése (2013): 2013-ban a Riot Games meghozta a döntést, hogy a világbajnokság döntőjét a Staples Centerben, Los Angelesben rendezik meg. Ez egy óriási lépés volt az e-sport színtér számára, és a csúcspontot jelentette a LoL világbajnokságok elérhetőségében és népszerűségében.
+          <br>
+          Folyamatos növekedés és professzionalizáció (2014–2017): A LoL e-sport színtere tovább növekedett, és a játékot játszó csapatok és játékosok közötti verseny kiéleződött. A versenyszerű játék egyre nagyobb szakmai infrastruktúrát és szponzorokat vonzott, a csapatok pedig profibb körülmények között működhettek.
+          <br>
+          Franchise-rendszer bevezetése (2018): A 2018-as év jelentős mérföldkő volt a LoL e-sport történetében. A Riot Games bevezette a franchise-rendszert, amelynek célja a ligák stabilizálása és a regionális versenyek erősítése. Így születtek meg az észak-amerikai (LCS) és az európai (LEC) franchiserek, ahol a csapatoknak jogosultságuk van, és a liga egy hosszú távú vállalkozásként működik.
+          <br>
+          Világbajnokságok és nemzetközi versenyek (2018–napjainkig): A világbajnokságok továbbra is a LoL e-sport legkiemelkedőbb eseményei közé tartoznak, és azok mérete és látványossága továbbra is növekszik. A nemzetközi versenyek, mint a Mid-Season Invitational (MSI) és a Rift Rivals, szintén népszerűek, és növelik a különböző régiók közötti rivalizálást.
+          <br>
+          A League of Legends e-sport története dinamikus és folyamatosan változó. A Riot Games folyamatosan fejleszti a versenyszerű játék környezetét, hogy az még inkább támogassa a csapatokat és a játékosokat, miközben tovább növeli az események látványosságát és a verseny izgalmát.</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row" id="Játékmenet">
+        <div class="col-md-6 col-12">
+          <div class="display-6 py-3">Játékmenet</div>
+        <p class="lead">A League of Legends (LoL) egy multiplayer online csatározás aréna (MOBA) játék, amelyben két csapat, a Kék és a Piros csapat, versenyez egymással. A játék célja a másik csapat Nexusának lerombolása, ami a térkép ellenkező végén található. Itt egy rövid összefoglaló a játékmenetről:
+          <br>
+          Csapatok és Championök: A játékosok választanak egy hőst, a "championt," amelyet irányítani fognak a játék során. Minden játékos csatlakozik egy csapathoz, és a csapatoknak összesen öt játékosa van.
+          <br>
+          Térkép és Sávok: A játék a Summoner's Rift térképén zajlik, amely három sávot (felső, középső, alsó) és egy dzsungelt tartalmaz. Minden sáv mentén találhatók toronyépületek, amelyek megvédik a Nexusot.
+          <br>
+          Dzsungel és Szörnyek: A térkép közepén található dzsungel terület számos szörnyet tartalmaz, mint például a Vörös- és Kékbuff, valamint a Sárkány és a Baron Nashor. A szörnyek elpusztításával a játékosok speciális buffokat szerezhetnek, amelyek előnyöket nyújtanak csapatuknak.
+          <br>
+          Csaták és Toronyharcok: A játékosok feladata, hogy harcoljanak egymással a sávok mentén, és próbálják lerombolni az ellenfél toronyépületeit. A toronyvédelem megtöréséhez a csapatoknak összehangoltan kell cselekedniük.
+          <br>
+          Cél: Nexus lerombolása: A végcél a Nexus lerombolása, ami a csapat bázisának középpontjában található. Ahhoz, hogy a Nexus sebzése kezdetét vegye, a csapatnak be kell törnie az ellenfél bázisába, és lerombolnia az ott található védelmi struktúrákat.
+          <br>
+          Fejlődés és Arany: A játékosok aranyat és tapasztalatot szereznek, miközben harcolnak és szörnyeket ölnek. Az aranyat arra lehet használni, hogy erősebb felszereléseket vásároljanak, a tapasztalat pedig a champion szintjét emeli. A fejlődés és a jó stratégia nélkülözhetetlen a sikerhez.
+          <br>
+          Meta és Stratégia: A játékosok általában különböző szerepeket vállalnak, mint például az ütő (AD Carry), támogató (Support), erdőjáró (Jungler), és harcos (Top, Mid). Az optimális csapatösszeállítás és stratégia meghatározza a játék kimenetelét.
+          <br>
+          A játékmenet tehát a csapatmunkára, stratégiai gondolkodásra, gyors reakciókra és egyéni játékoskészségekre épül. A League of Legends folyamatosan frissül és fejlődik a játékélmény javítása és a versenyszerű környezet támogatása érdekében</p>
+          <hr></div>
+        <div class="col-md-6 col-12"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-12"></div>
+        <div class="col-md-6 col-12"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-12"></div>
+        <div class="col-md-6 col-12"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-12"></div>
+        <div class="col-md-6 col-12"></div>
+      </div>
+    </main> 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
