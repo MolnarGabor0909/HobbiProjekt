@@ -1,21 +1,37 @@
 body{
+    position: relative;
     font-family: 'Roboto', sans-serif;
     cursor: url(img/99922c2848da6a14b8b005d97453c5ff.webp), auto;
 }
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.103);
+}
+nav:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+    
+}
+#navbar{
+    position: absolute;
+}
 #asd{
-    color: rgba(255, 255, 255, 0.377);
-    font-size: 15px;
+    color: rgba(255, 255, 255, 0.164);
     display: inline-block;
 }
 #asd:hover{
-    cursor: url(img/db52b5ec9197647e5d5db65f638a8a58.webp), auto;
-    color: rgba(255, 255, 255, 0.445);
-    border: 2px solid rgba(255, 255, 255, 0.096);
-    background-color: rgba(255, 255, 255, 0.11);
-    border-radius: 300px;
-    font-size: 17px;
-    animation-duration: 4s;
-    padding: 8px;
+animation: navbar 0.5s both alternate;
+}
+@keyframes navbar {
+    from{ font-size: 100%;  background-color: rgba(255, 255, 255, 0.103)}
+    to{color: rgba(255, 255, 255, 0.514); font-size: 130%;  background-color: rgba(255, 255, 255, 0.219); border-radius: 40px; transform: translateY(10px);}
 }
 
 .display-6, .display-4{
@@ -50,7 +66,7 @@ footer{
     width: 100%;
 }
 #alpaka{
-    width: 100%;
+ width: 100%;
 }
 .video{
     width: 100%;
@@ -58,4 +74,7 @@ footer{
     background-color: rgba(255, 255, 255, 0.11);
     margin-top: 60px;
     box-shadow: 5px 10px 10px rgba(255, 115, 0, 0.219), -5px -10px 10px rgba(238, 255, 0, 0.212);
+}
+main{
+    overflow: auto;
 }
