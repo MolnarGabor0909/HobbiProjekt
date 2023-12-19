@@ -14,11 +14,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.103);
+    background-image: transparent;
+    backdrop-filter: blur(7.5px);
 }
-nav:hover{
-    background-color: rgba(255, 255, 255, 0.103);
-    
+footer{
+    color: rgba(255, 255, 255, 0.527);
 }
 #navbar{
     position: absolute;
@@ -28,27 +28,8 @@ nav:hover{
     display: inline-block;
 }
 #asd:hover{
-animation: navbar 0.5s both alternate;
-}
-@keyframes navbar {
-    from{ font-size: 100%;  background-color: rgba(255, 255, 255, 0.103)}
-    to{color: rgba(255, 255, 255, 0.514); font-size: 130%;  background-color: rgba(255, 255, 255, 0.219); border-radius: 40px; transform: translateY(10px);}
-}
-
-.display-6, .display-4{
-    color: #fff1f177;
-    font-family:cursive ;
-}
-footer{
-    color: rgba(255, 255, 255, 0.527);
-}
-@keyframes szivarvany {
-    0% { color: #ff0000; } 
-    16.666% { color: #ff7f00; } 
-    33.333% { color: #ffff00; } 
-    50% { color: #00ff00; } 
-    66.666% { color: #0000ff; } 
-    100% { color: #9400d3; } 
+    cursor: url(img/db52b5ec9197647e5d5db65f638a8a58.webp), auto; 
+animation: navbar 1s both alternate;
 }
 
 #csilivili {
@@ -62,30 +43,136 @@ footer{
 #kártya{
     color: rgba(255, 255, 255, 0.377);
     background-color: rgba(255, 255, 255, 0.11);
-}
+} 
 #alma{
     width: 100%;
 }
 #alpaka{
  width: 100%;
 }
-.video{
-    width: 200px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.11);
-    margin-top: 60px;
-    box-shadow: 5px 10px 10px rgba(255, 115, 0, 0.219), -5px -10px 10px rgba(238, 255, 0, 0.212);
+#t-cim:hover{
+    cursor: url(img/house-door-fill.svg), auto;
+}
+.tartalom:hover{
+    cursor: url(img/db52b5ec9197647e5d5db65f638a8a58.webp), auto;
+}
+.display-6, .display-4{
+    display: inline;
+    color: #fff1f177;
+    font-family:cursive ;
 }
 
+.gombaa{
+    font-weight:bold;
+    background-color: #fff1f100;
+    color: #170bbd;
+    border:2px solid #170bbd;
+    box-shadow: 4px 4px 10px #170bbd, -4px -4px 10px #170bbd;
+    border-radius: 10px;
+    font-size: 21px;
+
+}
+.gombaa:hover{ 
+   animation: gombaa 1s 0.1s both alternate;
+   cursor: url(img/db52b5ec9197647e5d5db65f638a8a58.webp), auto; 
+}
+.sav:hover{
+    color: white;
+    opacity: 100%;
+}
+@keyframes navbar {
+    from{ font-size: 100%;}
+    to{color: rgba(255, 255, 255, 0.514); font-size: 120%; transform: translateY(6px);}
+}
+@keyframes szivarvany {
+    0% { color: #ff0000; } 
+    16.666% { color: #ff7f00; } 
+    33.333% { color: #ffff00; } 
+    50% { color: #00ff00; } 
+    66.666% { color: #0000ff; } 
+    100% { color: #9400d3; } 
+}
+@keyframes gomba{
+    from{font-weight:bold;background-color: #fff1f100;color: #3486e4; border:2px solid #3486e4;box-shadow: 4px 4px 10px #3486e4, -4px -4px 10px #3486e4;border-radius: 10px;font-size: 21px; }
+    to{font-weight:bold;color:white;background-color: #3486e4;border: #3486e4 solid 2px;box-shadow: 4px 4px 10px #3486e4, -4px -4px 10px #3486e4;border-radius: 10px;}
+}
+@keyframes gombaa{
+    from{font-weight:bold;background-color: #fff1f100;color: #170bbd;border:2px solid #170bbd;box-shadow: 4px 4px 10px #170bbd, -4px -4px 10px #170bbd;border-radius: 10px;font-size: 21px; transform: translateY(0px);}
+    to{font-weight:bold;color:white;background-color: #170bbd;border: #170bbd solid 2px;box-shadow: 4px 4px 10px #170bbd, -4px -4px 10px #170bbd;border-radius: 10px; transform: translateY(6px);}
+}
+.gomba{
+    font-weight:bold;
+    background-color: #fff1f100;
+    color: #3486e4;
+    border:2px solid #3486e4;
+    box-shadow: 4px 4px 10px #3486e4, -4px -4px 10px #3486e4;
+    border-radius: 10px;
+    font-size: 21px; 
+}
+.gomba:hover{ 
+    animation: gomba 1s alternate both;
+    cursor: url(img/db52b5ec9197647e5d5db65f638a8a58.webp), auto; 
+ }
+.sor-1{
+    display: flex;
+  align-items: center;
+}
+.card{
+    align-items: center;
+}
+#card-1{
+    background-color: var(--bg-color-2);
+    margin-top: 10px;
+    border-image: linear-gradient(45deg, var(--gradient-nine), var(--gradient-six));
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom: 20px;
+}
+#card-2{
+    background-color: var(--bg-color-2);
+    margin-top: 10px;
+    border-image: linear-gradient(45deg, var(--gradient-four), var(--gradient-eight));
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom: 20px;
+}
+#card-3{
+    background-color: var(--bg-color-2);
+    margin-top: 10px;
+    border-image: linear-gradient(45deg, var(--gradient-five), var(--gradient-seven));
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom: 20px;
+}
+
+#card-4{
+    background-color: var(--bg-color-2);
+    margin-top: 10px;
+    border-image: linear-gradient(45deg, var(--gradient-ten), var(--gradient-one));
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom: 20px;
+}
+#card-1, #card-2, #card-3, #card-4{
+    width: 85%;
+}
+#card-1:hover, #card-2:hover, #card-3:hover, #card-4:hover{
+    animation: kártyaa 0.5s alternate both;
+}
+@keyframes kártyaa{
+    from{width: 85%;}
+    to{width: 100%;}
+}
 :root{
-    --bg-color-2:rgb(54, 69, 79);
-    --bg-color: rgb();
-    --asd:#ff0000;
-    --asd2:#ff7f00;
-    --asd3:#ffff00;
-    --asd4:#00ff00;
-    --asd5:#0000ff;
-    --asd6:#9400d3;
+    --bg-color-2:rgb(164, 198, 221);
     --gradient-one: rgb(231, 67, 177);
     --gradient-two: rgb(156, 128, 255);
     --gradient-three:rgb(255, 105, 180);
@@ -96,83 +183,4 @@ footer{
     --gradient-eight:rgb(186, 49, 231 );
     --gradient-nine:rgb(245, 45, 190);
     --gradient-ten:rgb(236, 159, 60);
-}
-
-.section-1{
-    width: 100%;
-    background-color: var(--bg-color-2);
-    border-image: linear-gradient(45deg, var(--gradient-one), var(--gradient-two));
-    border-image-slice: 4;
-    border-image-width: 8px;
-    border-style: solid;
-    border-width: 8px;
-    margin-bottom: 20px;
-}
-.section-2{
-    width: 100%;
-    background-color: var(--bg-color-2);
-    border-image: linear-gradient(45deg, var(--gradient-four), var(--gradient-three));
-    border-image-slice: 4;
-    border-image-width: 8px;
-    border-style: solid;
-    border-width: 8px;
-    margin-bottom: 20px;
-}
-.section-3{
-    width: 100%;
-    background-color: var(--bg-color-2);
-    border-image: linear-gradient(45deg, var(--gradient-five), var(--gradient-six));
-    border-image-slice: 4;
-    border-image-width: 8px;
-    border-style: solid;
-    border-width: 8px;
-    margin-bottom: 20px;
-}
-.section-4{
-    width: 100%;
-    background-color: var(--bg-color-2);
-    border-image: linear-gradient(45deg, var(--gradient-seven), var(--gradient-eight));
-    border-image-slice: 4;
-    border-image-width: 8px;
-    border-style: solid;
-    border-width: 8px;
-    margin-bottom: 20px;
-}
-.section-5{
-    width: 100%;
-    background-color: var(--bg-color-2);
-    border-image: linear-gradient(45deg, var(--gradient-nine), var(--gradient-ten));
-    border-image-slice: 4;
-    border-image-width: 8px;
-    border-style: solid;
-    border-width: 8px;
-    margin-bottom: 20px;
-}
-.main{
-    padding-top: 20px;
-    width: 100%;
-    background-color: var(--bg-color);
-    border-image: linear-gradient(60deg, var(--asd6), var(--asd5), var(--asd4), var(--asd3), var(--asd2), var(--asd));
-    border-image-slice: 4;
-    border-image-width: 8px;
-    border-style: solid;
-    border-width: 8px;
-    margin-bottom: 20px;
-}
-.footer{
-    padding-top: 20px;
-    width: 100%;
-    background-color: var(--bg-color);
-    border-image: linear-gradient(45deg, var(--gradient-three),var(--gradient-five), var(--gradient-four),var(--gradient-six));
-    border-image-slice: 4;
-    border-image-width: 8px;
-    border-style: solid;
-    border-width: 8px;
-    margin-bottom: 20px;
-}
-.gomba{
-    margin-top: 20px;
-    color:#00ff00;
-    background-color: white;
-    border: 2px solid green;
 }

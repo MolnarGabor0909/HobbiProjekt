@@ -1,7 +1,8 @@
-    <main class="container">
+    <div class="main container-fluid">
+      <div class="section-1 container">
         <div class="row" id="Kialakulás">
           <div class="col-md-6 col-12">
-            <div class="display-6">Kialakulása</div>
+            <a href="#navbar" class="text-decoration-none"><div class="display-6">Kialakulása</div></a>
           <p class="lead">A League of Legends hivatalosan 2009. október 27-én jelent meg. A játék első napokban csak Észak-Amerikában és Európában volt elérhető, majd később terjeszkedett más régiókba is.
             <br>
              A Riot Games, egy Los Angeles-i székhelyű videojáték-fejlesztő cég készítette a League of Legendset. A vállalatot 2006-ban alapították Marc "Tryndamere" Merrill és Brandon "Ryze" Beck.
@@ -9,10 +10,13 @@
              A League of Legends egy Dota (Defense of the Ancients) nevű modifikációra épül, ami a Warcraft III: Reign of Chaos és a Warcraft III: The Frozen Throne stratégiai játékokra lett készítve. A Dota egy közkedvelt mod volt, amit a játékosok a Warcraft III módosító eszközeivel hoztak létre.</p>
             <hr>
           </div>
-          <div class="col-md-6 col-12"></div>
+          <div class="col-md-6 col-12">
+            <img src="img/Riot-Games-new-logo.gif" alt="demacia" class="img-fluid video-1">
+          </div>
         </div>
+      </div> 
+      <div class="section-2 container">
         <div class="row"  id="Történet">
-          <div class="col-md-6 col-12"></div>
           <div class="col-md-6 col-12">
             <div class="display-6 py-3">Története</div>
           <p class="lead">A League of Legends története egy gazdag és bonyolult világba kalauzolja el a játékosokat, tele izgalmas karakterekkel, konfliktusokkal és fantasztikus eseményekkel. Azonban fontos megjegyezni, hogy a játék története nem közvetlenül része a játékmenetnek, hanem inkább a háttérben zajló eseményeket és karaktereket bemutatja, amelyek hozzájárulnak a LoL univerzumához.
@@ -33,27 +37,67 @@
           </p>
           <hr>
         </div>
+        <div class="col-md-6 col-12">
+          <img src="img/history.jpg" alt="history" class="img-fluid video-2">
+          <img src="img/demacia.jpg" alt="demacia" class="img-fluid video-2">
+          <img src="img/1_JzJBaliMfb9R_kEAPQaw5g.png" alt="kep" class="img-fluid video-2">
+          <img src="img/fun art.jpg" alt="funart" class="img-fluid video-2">
         </div>
-        <div class="row" id="Idézőkszurdoka">
-          <div class="col-md-6 col-12">
-            <div class="display-6 py-3">Idézők szurdoka</div>
-          <p class="lead">Kezdeti verzió (2009): Az eredeti Idézők Szurdoka egy egyszerű, de stratégiai szempontból mély térkép volt. Az alapvető kialakítása már ekkor is tartalmazta a két csapatnak szánt három sávot (lanet), a dzsungelt és a Nexusokat. A térkép közepén elhelyezett a Káosz Édenének (Baron Nashor) és a Varázsló Sárkánynak (Dragon) nevezett erőteljes szörnyek is voltak.
-            <br>
-            Viszontagságok és javítások (különböző évek): A következő években a térkép több frissítésen esett át annak érdekében, hogy javítsák a játékélményt és kiegyensúlyozzák a karakterek közötti harcot. Ez magában foglalta a térkép strukturális változásait, a dzsungel területének módosításait, illetve a sávok mentén található toronyrendszer fejlesztését. Az új szörnyek és objektumok is bekerültek a térképre, például a Vörös- és Kékbuff, amelyek különböző statisztikai előnyöket adnak a játékosoknak.
-            <br>
-            Vizuális fejlesztések (2014): 2014-ben a Riot Games teljes vizuális frissítést hajtott végre az Idézők Szurdokán. A térkép új dizájnt kapott, amely részletesebb és dinamikusabb volt. Az új változat javította a térkép általános esztétikáját és olvashatóságát, ami hozzájárult a játék látványosságához.
-            <br>
-            Elemek és újítások (2020): Az Idézők Szurdokára tett legutóbbi nagyobb változások 2020-ban következtek be. Ebben az évben a Riot Games bevezette az új Íjász Csarnokot (Marksman's Dawn) és a Gyógyító Csarnokot (Healer's Forge), amelyek a térkép alsó sávjában találhatók, és új taktikai lehetőségeket nyitottak meg a játékosok számára.
-            <br>
-            Objektumok és következmények (2022): Az Idézők Szurdokának folyamatosan alakul a játékmenetét meghatározó objektumok és változások. Például a Káosz Édenének és a Varázsló Sárkánynak megölése most különböző kedvezményeket nyújt a csapatnak. A térkép újításokat is bevezetett, például a sávok mentén elhelyezett elemeket, mint a Talonok Folyosója vagy a Keleti Tengerpart, amelyek stratégiai előnyöket adnak a játékosoknak.
-            <br>
-            Az Idézők Szurdoka fejlődése tehát nem csak a vizuális aspektusokra, hanem a játékmechanikákra és stratégiákra is kiterjed. A térkép folyamatosan változik és frissül, hogy megőrizze a játék frissességét és izgalmát, valamint hogy reagáljon a játékosok visszajelzéseire és az egyensúlyi változásokra.</p>
-            <hr>
+        </div>
+      </div>
+      <div class="section-3 container">
+        <div id="Játékinfo">
+        <div class="display-6 py-3">Játszható pályák</div>
+          <div id="kártya" class="card mb-3">
+            <img src="img/idezok.webp" class="card-img-top video-3 img-fluid" alt="idezokszurdoka">
+            <div class="card-body">
+              <h5 class="card-title">Idézők szurdoka</h5>
+              <p class="card-text lead">Kezdeti verzió (2009): Az eredeti Idézők Szurdoka egy egyszerű, de stratégiai szempontból mély térkép volt. Az alapvető kialakítása már ekkor is tartalmazta a két csapatnak szánt három sávot (lanet), a dzsungelt és a Nexusokat. A térkép közepén elhelyezett a Káosz Édenének (Baron Nashor) és a Varázsló Sárkánynak (Dragon) nevezett erőteljes szörnyek is voltak.
+                <br>
+                Viszontagságok és javítások (különböző évek): A következő években a térkép több frissítésen esett át annak érdekében, hogy javítsák a játékélményt és kiegyensúlyozzák a karakterek közötti harcot. Ez magában foglalta a térkép strukturális változásait, a dzsungel területének módosításait, illetve a sávok mentén található toronyrendszer fejlesztését. Az új szörnyek és objektumok is bekerültek a térképre, például a Vörös- és Kékbuff, amelyek különböző statisztikai előnyöket adnak a játékosoknak.
+                <br>
+                Vizuális fejlesztések (2014): 2014-ben a Riot Games teljes vizuális frissítést hajtott végre az Idézők Szurdokán. A térkép új dizájnt kapott, amely részletesebb és dinamikusabb volt. Az új változat javította a térkép általános esztétikáját és olvashatóságát, ami hozzájárult a játék látványosságához.
+                <br>
+                Elemek és újítások (2020): Az Idézők Szurdokára tett legutóbbi nagyobb változások 2020-ban következtek be. Ebben az évben a Riot Games bevezette az új Íjász Csarnokot (Marksman's Dawn) és a Gyógyító Csarnokot (Healer's Forge), amelyek a térkép alsó sávjában találhatók, és új taktikai lehetőségeket nyitottak meg a játékosok számára.
+                <br>
+                Objektumok és következmények (2022): Az Idézők Szurdokának folyamatosan alakul a játékmenetét meghatározó objektumok és változások. Például a Káosz Édenének és a Varázsló Sárkánynak megölése most különböző kedvezményeket nyújt a csapatnak. A térkép újításokat is bevezetett, például a sávok mentén elhelyezett elemeket, mint a Talonok Folyosója vagy a Keleti Tengerpart, amelyek stratégiai előnyöket adnak a játékosoknak.
+                <br>
+                Az Idézők Szurdoka fejlődése tehát nem csak a vizuális aspektusokra, hanem a játékmechanikákra és stratégiákra is kiterjed. A térkép folyamatosan változik és frissül, hogy megőrizze a játék frissességét és izgalmát, valamint hogy reagáljon a játékosok visszajelzéseire és az egyensúlyi változásokra.</p>
+                <hr></p>
+            </div>
           </div>
-          <div class="col-md-6 col-12"></div>
         </div>
+
+        <div class="col-12">
+          <div id="kártya" class="card mb-3">
+            <img src="img/aramm.jpg" class="card-img-top video-3 img-fluid" alt="aram">
+            <div class="card-body">
+              <h5 class="card-title">Aram</h5>
+              <p class="card-text lead">Az "ARAM" (All Random All Mid) egy játékmód a League of Legends-ben, amely egy csapatközpontú, intenzív és kaotikus élményt nyújt.
+                Csapatok és Pályaterület:Két csapat, általában 5 fős, véletlenszerűen kiválasztott hőseivel játszanak egymás ellen.
+                A csapatok egy egyenes, középen található folyosón, a "Mid Lane"-en találkoznak, tehát nincs lehetőség oldalakra vagy más területekre menni.
+                <br>
+                Véletlenszerű Hősök:A játékosok nem választhatják ki saját hőseiket, hanem véletlenszerűen kapnak egyet a rendelkezésre álló hősök közül.
+                A hősök kiválasztása a "ARAM" módhoz van optimalizálva, és a célja, hogy minden játékos egyenlő esélyekkel kezdje a játékot.
+                <br>
+                Gyors Játékmenet:Az ARAM meccsek általában rövidebbek, mint a hagyományos játékmódokban, mivel a játékosok gyorsabban találkoznak és kevésbé terjednek szét a pályán.
+                <br>
+                Esélyjáték és Kihívások:A véletlenszerű hősök miatt minden meccs egyedülálló, és a játékosoknak alkalmazkodniuk kell a hőseik képességeihez és szerepköréhez.
+                Az ARAM gyakran hangsúlyozza a kreativitást és a stratégiai alkalmazkodást a változó helyzetekhez.
+                <br>
+                ARAM Pénz és Butik:A játékosok a "Howling Abyss" nevű pályán játszanak, ahol az alapító esélyek és a kevésbé kötött játékmenet mellett egy speciális áruház is rendelkezésre áll.
+                Az ARAM-ban megszerezhető pénzzel a játékosok a "Butik" nevű boltban vásárolhatnak különböző tárgyakat, amelyek a hőseiket erősítik és segíthetnek a meccs során.
+                <br>
+                Az ARAM játékmód a versenyszellem és a szórakozás kombinációját kínálja, kiváló választás lehet egy laza és szórakoztató játékélményért. 
+              <hr>
+            </p>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <div class="section-4 container">
         <div class="row" id="E-sport">
-          <div class="col-md-6 col-12"></div>
           <div class="col-md-6 col-12">
             <div class="display-6 py-3">E-sport</div>
           <p class="lead">
@@ -76,7 +120,13 @@
             A League of Legends e-sport története dinamikus és folyamatosan változó. A Riot Games folyamatosan fejleszti a versenyszerű játék környezetét, hogy az még inkább támogassa a csapatokat és a játékosokat, miközben tovább növeli az események látványosságát és a verseny izgalmát.</p>
             <hr>
           </div>
+          <div class="col-md-6 col-12">
+            <img src="img/e-sport.jpg" alt="E-sport" class="img-fluid video-4">
+            <img src="img/20231026esport-league-of-legends.jpg" alt="kupa" class="img-fluid video-4">
+          </div>
         </div>
+      </div> 
+      <div class="section-5 container">
         <div class="row" id="Játékmenet">
           <div class="col-md-6 col-12">
             <div class="display-6 py-3">Játékmenet</div>
@@ -97,339 +147,154 @@
             Meta és Stratégia: A játékosok általában különböző szerepeket vállalnak, mint például az ütő (AD Carry), támogató (Support), erdőjáró (Jungler), és harcos (Top, Mid). Az optimális csapatösszeállítás és stratégia meghatározza a játék kimenetelét.
             <br>
             A játékmenet tehát a csapatmunkára, stratégiai gondolkodásra, gyors reakciókra és egyéni játékoskészségekre épül. A League of Legends folyamatosan frissül és fejlődik a játékélmény javítása és a versenyszerű környezet támogatása érdekében</p>
-            <hr></div>
-          <div class="col-md-6 col-12"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-12"></div>
-          <div class="col-md-6 col-12"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-12"></div>
-          <div class="col-md-6 col-12"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-12"></div>
-          <div class="col-md-6 col-12"></div>
-        </div>
-      </main> 
-      <footer>
-        <a href="https://signup.leagueoflegends.com/en-pl/signup/redownload" class="text-decoration-none text-secondary"><i class="fa-solid fa-download"></i> </a>
-      </footer>
-
-            <section>
-        <section id="Szint">
-          <div class="display-6">Szint és Badgek</div>
-        </section>
-        <section id="Hősöm">
-          <div class="display-6">Kedvenc Hősöm</div>
-        </section>
-        <section id="Klippek">
-          <div class="display-6">Klippek</div>
-        </section>
-      </section>
-
-      <video loop  autoplay muted class="video">
-            <source src="img/video.webm" type="video/webm">
-
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-    </div>
+            <hr>
+            <div class="col-12 col-md-6"></div>
+          </div>
+      </div> 
+      </div>
+      
   </div>
-</div>
-
-
-aram 
-
-Az "ARAM" (All Random All Mid) egy játékmód a League of Legends-ben, amely egy csapatközpontú, intenzív és kaotikus élményt nyújt.
-Csapatok és Pályaterület:Két csapat, általában 5 fős, véletlenszerűen kiválasztott hőseivel játszanak egymás ellen.
-A csapatok egy egyenes, középen található folyosón, a "Mid Lane"-en találkoznak, tehát nincs lehetőség oldalakra vagy más területekre menni.
-<br>
-Véletlenszerű Hősök:A játékosok nem választhatják ki saját hőseiket, hanem véletlenszerűen kapnak egyet a rendelkezésre álló hősök közül.
-A hősök kiválasztása a "ARAM" módhoz van optimalizálva, és a célja, hogy minden játékos egyenlő esélyekkel kezdje a játékot.
-<br>
-Gyors Játékmenet:Az ARAM meccsek általában rövidebbek, mint a hagyományos játékmódokban, mivel a játékosok gyorsabban találkoznak és kevésbé terjednek szét a pályán.
-<br>
-Esélyjáték és Kihívások:A véletlenszerű hősök miatt minden meccs egyedülálló, és a játékosoknak alkalmazkodniuk kell a hőseik képességeihez és szerepköréhez.
-Az ARAM gyakran hangsúlyozza a kreativitást és a stratégiai alkalmazkodást a változó helyzetekhez.
-<br>
-ARAM Pénz és Butik:A játékosok a "Howling Abyss" nevű pályán játszanak, ahol az alapító esélyek és a kevésbé kötött játékmenet mellett egy speciális áruház is rendelkezésre áll.
-Az ARAM-ban megszerezhető pénzzel a játékosok a "Butik" nevű boltban vásárolhatnak különböző tárgyakat, amelyek a hőseiket erősítik és segíthetnek a meccs során.
-<br>
-Az ARAM játékmód a versenyszellem és a szórakozás kombinációját kínálja, kiváló választás lehet egy laza és szórakoztató játékélményért.
+  <div class="footer container-fluid">  
+  </div>
 
 
 
 
-<div class="display-4 py-3">Játékinfók</div>
-        <div class="col-12 ">
-          <div class="display-6 py-3">Játszható pályák</div>
-          <div id="kártya" class="card mb-3">
-            <img src="img/idezok.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Idézők szurdoka</h5>
-              <p class="card-text lead">Kezdeti verzió (2009): Az eredeti Idézők Szurdoka egy egyszerű, de stratégiai szempontból mély térkép volt. Az alapvető kialakítása már ekkor is tartalmazta a két csapatnak szánt három sávot (lanet), a dzsungelt és a Nexusokat. A térkép közepén elhelyezett a Káosz Édenének (Baron Nashor) és a Varázsló Sárkánynak (Dragon) nevezett erőteljes szörnyek is voltak.
-                <br>
-                Viszontagságok és javítások (különböző évek): A következő években a térkép több frissítésen esett át annak érdekében, hogy javítsák a játékélményt és kiegyensúlyozzák a karakterek közötti harcot. Ez magában foglalta a térkép strukturális változásait, a dzsungel területének módosításait, illetve a sávok mentén található toronyrendszer fejlesztését. Az új szörnyek és objektumok is bekerültek a térképre, például a Vörös- és Kékbuff, amelyek különböző statisztikai előnyöket adnak a játékosoknak.
-                <br>
-                Vizuális fejlesztések (2014): 2014-ben a Riot Games teljes vizuális frissítést hajtott végre az Idézők Szurdokán. A térkép új dizájnt kapott, amely részletesebb és dinamikusabb volt. Az új változat javította a térkép általános esztétikáját és olvashatóságát, ami hozzájárult a játék látványosságához.
-                <br>
-                Elemek és újítások (2020): Az Idézők Szurdokára tett legutóbbi nagyobb változások 2020-ban következtek be. Ebben az évben a Riot Games bevezette az új Íjász Csarnokot (Marksman's Dawn) és a Gyógyító Csarnokot (Healer's Forge), amelyek a térkép alsó sávjában találhatók, és új taktikai lehetőségeket nyitottak meg a játékosok számára.
-                <br>
-                Objektumok és következmények (2022): Az Idézők Szurdokának folyamatosan alakul a játékmenetét meghatározó objektumok és változások. Például a Káosz Édenének és a Varázsló Sárkánynak megölése most különböző kedvezményeket nyújt a csapatnak. A térkép újításokat is bevezetett, például a sávok mentén elhelyezett elemeket, mint a Talonok Folyosója vagy a Keleti Tengerpart, amelyek stratégiai előnyöket adnak a játékosoknak.
-                <br>
-                Az Idézők Szurdoka fejlődése tehát nem csak a vizuális aspektusokra, hanem a játékmechanikákra és stratégiákra is kiterjed. A térkép folyamatosan változik és frissül, hogy megőrizze a játék frissességét és izgalmát, valamint hogy reagáljon a játékosok visszajelzéseire és az egyensúlyi változásokra.</p>
-                <hr></p>
-            </div>
-          </div>
+
+  .display-6:hover{
+    cursor: url(img/db52b5ec9197647e5d5db65f638a8a58.webp), auto;
+}
+.section-1{
+    width: 100%;
+    background-color: var(--bg-color-2);
+    border-image: linear-gradient(45deg, var(--gradient-one), var(--gradient-two));
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom: 20px;
+}
+.section-2{
+    width: 100%;
+    background-color: var(--bg-color-2);
+    border-image: linear-gradient(45deg, var(--gradient-four), var(--gradient-three));
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom: 20px;
+}
+.section-3{
+    width: 100%;
+    background-color: var(--bg-color-2);
+    border-image: linear-gradient(45deg, var(--gradient-five), var(--gradient-six));
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom: 20px;
+}
+.section-4{
+    width: 100%;
+    background-color: var(--bg-color-2);
+    border-image: linear-gradient(45deg, var(--gradient-seven), var(--gradient-eight));
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom: 20px;
+}
+.section-5{
+    width: 100%;
+    background-color: var(--bg-color-2);
+    border-image: linear-gradient(45deg, var(--gradient-nine), var(--gradient-ten));
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom: 20px;
+}
+.footer{
+    padding-top: 20px;
+    width: 100%;
+    background-color: var(--bg-color);
+    border-image: linear-gradient(45deg, var(--gradient-three),var(--gradient-five), var(--gradient-four),var(--gradient-six));
+    border-image-slice: 4;
+    border-image-width: 8px;
+    border-style: solid;
+    border-width: 8px;
+    margin-bottom: 20px;
+}
+.video-1{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.11);
+    margin-top: 60px;
+    box-shadow: 5px 10px 10px var(--gradient-one), -5px -10px 10px var(--gradient-two);
+}
+.video-2{
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.11);
+    margin-top: 60px;
+    box-shadow: 5px 10px 10px var(--gradient-four), -5px -10px 10px var(--gradient-three);
+}
+.video-3{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.11);
+    margin-top: 60px;
+    box-shadow: 5px 10px 10px var(--gradient-five), -5px -10px 10px var(--gradient-six);
+}
+.video-4{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.11);
+    margin-top: 60px;
+    box-shadow: 5px 10px 10px var(--gradient-seven), -5px -10px 10px var(--gradient-eight);
+}
+.video-5{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.11);
+    margin-top: 60px;
+    box-shadow: 5px 10px 10px var(--gradient-nine), -5px -10px 10px var(--gradient-ten);
+}
+
+
+:root{
+    --bg-color-2:rgb(54, 69, 79);
+    --bg-color: rgb();
+    --asd:#ff0000;
+    --asd2:#ff7f00;
+    --asd3:#ffff00;
+    --asd4:#00ff00;
+    --asd5:#0000ff;
+    --asd6:#9400d3;
+    --gradient-one: rgb(231, 67, 177);
+    --gradient-two: rgb(156, 128, 255);
+    --gradient-three:rgb(255, 105, 180);
+    --gradient-four: rgb(0, 255, 247);
+    --gradient-five: rgb(35, 78, 112);
+    --gradient-six: rgb(251, 248, 190);
+    --gradient-seven:rgb(27, 202, 80);
+    --gradient-eight:rgb(186, 49, 231 );
+    --gradient-nine:rgb(245, 45, 190);
+    --gradient-ten:rgb(236, 159, 60);
+}
+
+
+<div class="fősáv col-12 col-md-10">
+          asd 
         </div>
-
-        <div class="col-12">
-          <div id="kártya" class="card mb-3">
-            <img src="img/aramm.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Aram</h5>
-              <p class="card-text lead">Az "ARAM" (All Random All Mid) egy játékmód a League of Legends-ben, amely egy csapatközpontú, intenzív és kaotikus élményt nyújt.
-                Csapatok és Pályaterület:Két csapat, általában 5 fős, véletlenszerűen kiválasztott hőseivel játszanak egymás ellen.
-                A csapatok egy egyenes, középen található folyosón, a "Mid Lane"-en találkoznak, tehát nincs lehetőség oldalakra vagy más területekre menni.
-                <br>
-                Véletlenszerű Hősök:A játékosok nem választhatják ki saját hőseiket, hanem véletlenszerűen kapnak egyet a rendelkezésre álló hősök közül.
-                A hősök kiválasztása a "ARAM" módhoz van optimalizálva, és a célja, hogy minden játékos egyenlő esélyekkel kezdje a játékot.
-                <br>
-                Gyors Játékmenet:Az ARAM meccsek általában rövidebbek, mint a hagyományos játékmódokban, mivel a játékosok gyorsabban találkoznak és kevésbé terjednek szét a pályán.
-                <br>
-                Esélyjáték és Kihívások:A véletlenszerű hősök miatt minden meccs egyedülálló, és a játékosoknak alkalmazkodniuk kell a hőseik képességeihez és szerepköréhez.
-                Az ARAM gyakran hangsúlyozza a kreativitást és a stratégiai alkalmazkodást a változó helyzetekhez.
-                <br>
-                ARAM Pénz és Butik:A játékosok a "Howling Abyss" nevű pályán játszanak, ahol az alapító esélyek és a kevésbé kötött játékmenet mellett egy speciális áruház is rendelkezésre áll.
-                Az ARAM-ban megszerezhető pénzzel a játékosok a "Butik" nevű boltban vásárolhatnak különböző tárgyakat, amelyek a hőseiket erősítik és segíthetnek a meccs során.
-                <br>
-                Az ARAM játékmód a versenyszellem és a szórakozás kombinációját kínálja, kiváló választás lehet egy laza és szórakoztató játékélményért. 
-              <hr>
-            </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row" id="E-sport">
-        <div class="col-md-6 col-12"></div>
-        <div class="col-md-6 col-12">
-          <div class="display-6 py-3">E-sport</div>
-        <p class="lead">
-          A League of Legends (LoL) e-sport története rendkívül gazdag és dinamikus, és a játék kiemelkedik az e-sport színtéren. Az alábbiakban összefoglalom a LoL e-sport történetét a kezdetektől napjainkig:
-          <br>
-          Kezdetek (2009–2010): A League of Legends e-sport színtere az első években kisebb rendezvényekből és online versenyekből állt. A Riot Games támogatta és ösztönözte a közösségi versenyzést, amelyek a játékosokat összehozták, és kialakították az alapjait a versenyszerű játéknak.
-          <br>
-          Season One World Championship (2010): 2010-ben az első nagyszabású világbajnokságot rendezték meg. A torneóra a DreamHack Winter fesztiválon került sor, és ekkoriban a díjalap összege is elkezdett növekedni. A Fnatic csapata nyerte meg az eseményt.
-          <br>
-          Rendes időszak (2011–2012): A következő években a LoL e-sport színtere gyorsan növekedett. Az Egyesült Államokban és Európában egyre több profi csapat alakult meg, és a régiók közötti rivalizálások elkezdődtek. A Riot Games szponzorált további nemzetközi versenyeket is, amelyek elősegítették a játék népszerűségét.
-          <br>
-          A legnagyobb torna növekedése (2013): 2013-ban a Riot Games meghozta a döntést, hogy a világbajnokság döntőjét a Staples Centerben, Los Angelesben rendezik meg. Ez egy óriási lépés volt az e-sport színtér számára, és a csúcspontot jelentette a LoL világbajnokságok elérhetőségében és népszerűségében.
-          <br>
-          Folyamatos növekedés és professzionalizáció (2014–2017): A LoL e-sport színtere tovább növekedett, és a játékot játszó csapatok és játékosok közötti verseny kiéleződött. A versenyszerű játék egyre nagyobb szakmai infrastruktúrát és szponzorokat vonzott, a csapatok pedig profibb körülmények között működhettek.
-          <br>
-          Franchise-rendszer bevezetése (2018): A 2018-as év jelentős mérföldkő volt a LoL e-sport történetében. A Riot Games bevezette a franchise-rendszert, amelynek célja a ligák stabilizálása és a regionális versenyek erősítése. Így születtek meg az észak-amerikai (LCS) és az európai (LEC) franchiserek, ahol a csapatoknak jogosultságuk van, és a liga egy hosszú távú vállalkozásként működik.
-          <br>
-          Világbajnokságok és nemzetközi versenyek (2018–napjainkig): A világbajnokságok továbbra is a LoL e-sport legkiemelkedőbb eseményei közé tartoznak, és azok mérete és látványossága továbbra is növekszik. A nemzetközi versenyek, mint a Mid-Season Invitational (MSI) és a Rift Rivals, szintén népszerűek, és növelik a különböző régiók közötti rivalizálást.
-          <br>
-          A League of Legends e-sport története dinamikus és folyamatosan változó. A Riot Games folyamatosan fejleszti a versenyszerű játék környezetét, hogy az még inkább támogassa a csapatokat és a játékosokat, miközben tovább növeli az események látványosságát és a verseny izgalmát.</p>
+        <div class="tartalom col-0 col-md-2">
+          <a href="#navbar" id="t-cim" class="text-decoration-none lead">Tartalom</a>
           <hr>
+          <ul class="list-unstyled">
+            <li id="sav1" class=" ">Történet</li>
+            <li id="sav1" >Kialakulás</li>
+            <li id="sav1">Játékinfók</li>
+              <ul class="list-unstyled ps-4">
+                <li id="sav2" class="">Játszható pályák</li>
+                <li id="sav2" class="">E-sport</li>
+                <li id="sav2" class="">Játékmenet</li>
+              </ul>
+            <li id="sav1">Profilom</li>
+          </ul>
         </div>
-      </div>
-      <div class="row" id="Játékmenet">
-        <div class="col-md-6 col-12">
-          <div class="display-6 py-3">Játékmenet</div>
-        <p class="lead">A League of Legends (LoL) egy multiplayer online csatározás aréna (MOBA) játék, amelyben két csapat, a Kék és a Piros csapat, versenyez egymással. A játék célja a másik csapat Nexusának lerombolása, ami a térkép ellenkező végén található. Itt egy rövid összefoglaló a játékmenetről:
-          <br>
-          Csapatok és Championök: A játékosok választanak egy hőst, a "championt," amelyet irányítani fognak a játék során. Minden játékos csatlakozik egy csapathoz, és a csapatoknak összesen öt játékosa van.
-          <br>
-          Térkép és Sávok: A játék a Summoner's Rift térképén zajlik, amely három sávot (felső, középső, alsó) és egy dzsungelt tartalmaz. Minden sáv mentén találhatók toronyépületek, amelyek megvédik a Nexusot.
-          <br>
-          Dzsungel és Szörnyek: A térkép közepén található dzsungel terület számos szörnyet tartalmaz, mint például a Vörös- és Kékbuff, valamint a Sárkány és a Baron Nashor. A szörnyek elpusztításával a játékosok speciális buffokat szerezhetnek, amelyek előnyöket nyújtanak csapatuknak.
-          <br>
-          Csaták és Toronyharcok: A játékosok feladata, hogy harcoljanak egymással a sávok mentén, és próbálják lerombolni az ellenfél toronyépületeit. A toronyvédelem megtöréséhez a csapatoknak összehangoltan kell cselekedniük.
-          <br>
-          Cél: Nexus lerombolása: A végcél a Nexus lerombolása, ami a csapat bázisának középpontjában található. Ahhoz, hogy a Nexus sebzése kezdetét vegye, a csapatnak be kell törnie az ellenfél bázisába, és lerombolnia az ott található védelmi struktúrákat.
-          <br>
-          Fejlődés és Arany: A játékosok aranyat és tapasztalatot szereznek, miközben harcolnak és szörnyeket ölnek. Az aranyat arra lehet használni, hogy erősebb felszereléseket vásároljanak, a tapasztalat pedig a champion szintjét emeli. A fejlődés és a jó stratégia nélkülözhetetlen a sikerhez.
-          <br>
-          Meta és Stratégia: A játékosok általában különböző szerepeket vállalnak, mint például az ütő (AD Carry), támogató (Support), erdőjáró (Jungler), és harcos (Top, Mid). Az optimális csapatösszeállítás és stratégia meghatározza a játék kimenetelét.
-          <br>
-          A játékmenet tehát a csapatmunkára, stratégiai gondolkodásra, gyors reakciókra és egyéni játékoskészségekre épül. A League of Legends folyamatosan frissül és fejlődik a játékélmény javítása és a versenyszerű környezet támogatása érdekében</p>
-          <hr></div>
-        <div class="col-md-6 col-12"></div>
-
-
-            <main class="container">
-      <hr>
-      <div class="row" id="Kialakulás">
-        <div class="col-12 col-md-6">
-          <div class="display-6">Kialakulása</div>
-        <p class="lead">A League of Legends hivatalosan 2009. október 27-én jelent meg. A játék első napokban csak Észak-Amerikában és Európában volt elérhető, majd később terjeszkedett más régiókba is.
-          <br>
-           A Riot Games, egy Los Angeles-i székhelyű videojáték-fejlesztő cég készítette a League of Legendset. A vállalatot 2006-ban alapították Marc "Tryndamere" Merrill és Brandon "Ryze" Beck.
-          <br>
-           A League of Legends egy Dota (Defense of the Ancients) nevű modifikációra épül, ami a Warcraft III: Reign of Chaos és a Warcraft III: The Frozen Throne stratégiai játékokra lett készítve. A Dota egy közkedvelt mod volt, amit a játékosok a Warcraft III módosító eszközeivel hoztak létre.</p>
-          <hr>
-        </div>
-        <div class="col-md-6 col-12">
-          <img src="img/Riot-Games-new-logo.gif" alt="Riot_Games" class="video">
-        </div>
-      </div>
-      <div class="row"  id="Történet">
-        <div class="col-md-6 col-12 order-last order-md-first">
-          <img src="img/A-Brief-History-Of-League-Of-Legends-Featured-image.jpg" alt="Története" class="video">
-          <img src="img/demacia.jpg" alt="Demacia" class="video">
-          <img src="img/1_JzJBaliMfb9R_kEAPQaw5g.png" alt="kep" class="video">
-          <img src="img/history.jpg" alt="history" class="video">
-        </div>
-        <div class="col-md-6 col-12 order-first order-md-last">
-          <div class="display-6 py-3">Története</div>
-        <p class="lead">A League of Legends története egy gazdag és bonyolult világba kalauzolja el a játékosokat, tele izgalmas karakterekkel, konfliktusokkal és fantasztikus eseményekkel. Azonban fontos megjegyezni, hogy a játék története nem közvetlenül része a játékmenetnek, hanem inkább a háttérben zajló eseményeket és karaktereket bemutatja, amelyek hozzájárulnak a LoL univerzumához.
-          <br>
-          A Runeterra nevű világ ahol a játék történik, egy olyan hely, ahol mágia és technológia egyaránt megtalálható. A világ két hatalmas entitás, a jó érdekében dolgozó Demacia és a gonosz erőket felkaroló Noxus közötti feszültségeken alapul. A konfliktusokat erősítik a különféle területeken élő különböző fajok, népek és szervezetek.
-          <br>
-          A játékban található hősök, vagy ahogy nevezik, a "championok," különböző háttérrel rendelkeznek. Például Garen Demaciából származik, egy hűséges katona, míg Darius Noxusból való, egy erőteljes hadvezér. A karaktereknek egyedi képességeik és történetük van, amelyek szorosan kapcsolódnak a Runeterra világához.
-          <br>
-          Az egyik kulcsfontosságú esemény a játékban a "Mágia és Ütközés" (Rune Wars) nevű háború, amely során a mágikus erőforrások felhasználása miatt konfliktusok törtek ki a világ különböző részein. Ennek eredményeként létrejött az Intézmény, egy szervezet, amely a mágia használatának szabályozására és ellenőrzésére jött létre.
-          <br>
-          A League of Legends története a sötét mágia és ősi erők körül forog, amelyek fenyegetik a Runeterra békéjét. A játékosok találkozhatnak olyan karakterekkel, mint Ryze, aki egy ősi varázstárgyat keres, hogy megakadályozza annak elpusztítását, vagy Vayne, aki a Night Hunters nevű szervezet tagja, és célja a sötét erőket kiirtani a világból.
-          <br>
-          Azonban nemcsak konfliktusok és háborúk jellemzik a Runeterra világát. Vannak barátságosabb entitások is, mint ahogy azt a Yordle nevű kis teremtmények képviselik, vagy a Bandle City nevű város, ahol élnek. A Freljord régió a hideg északon, ahol kemény törzsi népek élnek, és ahol a jéggel kapcsolatos erők és titkok uralkodnak.
-          <br>
-          A karakterek között fellelhetőek olyanok is, akik az élet és halál, az idő és tér manipulálására képesek, mint Zilean, aki a korok őrzőjeként a mágia és idő titkait őrzi.
-          <br>
-          A LoL univerzum folyamatosan bővül és fejlődik. Az események és karakterek összefonódnak, ahogy újabb területeket fedeznek fel, és újabb veszélyekkel néznek szembe. A Riot Games rendszeresen ad ki frissítéseket és történeteket, hogy további mélységet és részletességet adjon a Runeterra világának, és hogy a játékosoknak mindig legyenek új kihívások és történetek felfedezniük.
-        </p>
-        <hr>
-      </div>
-      </div>
-      <div class="row" id="Játékinfo">
-        <div class="display-4 py-3">Játékinfók</div>
-        <div class="col-12 ">
-          <div class="display-6 py-3">Játszható pályák</div>
-          <div id="kártya" class="card mb-3">
-            <img src="img/idezok.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Idézők szurdoka</h5>
-              <p class="card-text lead">Kezdeti verzió (2009): Az eredeti Idézők Szurdoka egy egyszerű, de stratégiai szempontból mély térkép volt. Az alapvető kialakítása már ekkor is tartalmazta a két csapatnak szánt három sávot (lanet), a dzsungelt és a Nexusokat. A térkép közepén elhelyezett a Káosz Édenének (Baron Nashor) és a Varázsló Sárkánynak (Dragon) nevezett erőteljes szörnyek is voltak.
-                <br>
-                Viszontagságok és javítások (különböző évek): A következő években a térkép több frissítésen esett át annak érdekében, hogy javítsák a játékélményt és kiegyensúlyozzák a karakterek közötti harcot. Ez magában foglalta a térkép strukturális változásait, a dzsungel területének módosításait, illetve a sávok mentén található toronyrendszer fejlesztését. Az új szörnyek és objektumok is bekerültek a térképre, például a Vörös- és Kékbuff, amelyek különböző statisztikai előnyöket adnak a játékosoknak.
-                <br>
-                Vizuális fejlesztések (2014): 2014-ben a Riot Games teljes vizuális frissítést hajtott végre az Idézők Szurdokán. A térkép új dizájnt kapott, amely részletesebb és dinamikusabb volt. Az új változat javította a térkép általános esztétikáját és olvashatóságát, ami hozzájárult a játék látványosságához.
-                <br>
-                Elemek és újítások (2020): Az Idézők Szurdokára tett legutóbbi nagyobb változások 2020-ban következtek be. Ebben az évben a Riot Games bevezette az új Íjász Csarnokot (Marksman's Dawn) és a Gyógyító Csarnokot (Healer's Forge), amelyek a térkép alsó sávjában találhatók, és új taktikai lehetőségeket nyitottak meg a játékosok számára.
-                <br>
-                Objektumok és következmények (2022): Az Idézők Szurdokának folyamatosan alakul a játékmenetét meghatározó objektumok és változások. Például a Káosz Édenének és a Varázsló Sárkánynak megölése most különböző kedvezményeket nyújt a csapatnak. A térkép újításokat is bevezetett, például a sávok mentén elhelyezett elemeket, mint a Talonok Folyosója vagy a Keleti Tengerpart, amelyek stratégiai előnyöket adnak a játékosoknak.
-                <br>
-                Az Idézők Szurdoka fejlődése tehát nem csak a vizuális aspektusokra, hanem a játékmechanikákra és stratégiákra is kiterjed. A térkép folyamatosan változik és frissül, hogy megőrizze a játék frissességét és izgalmát, valamint hogy reagáljon a játékosok visszajelzéseire és az egyensúlyi változásokra.</p>
-                <hr></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12">
-          <div id="kártya" class="card mb-3">
-            <img src="img/aramm.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Aram</h5>
-              <p class="card-text lead">Az "ARAM" (All Random All Mid) egy játékmód a League of Legends-ben, amely egy csapatközpontú, intenzív és kaotikus élményt nyújt.
-                Csapatok és Pályaterület:Két csapat, általában 5 fős, véletlenszerűen kiválasztott hőseivel játszanak egymás ellen.
-                A csapatok egy egyenes, középen található folyosón, a "Mid Lane"-en találkoznak, tehát nincs lehetőség oldalakra vagy más területekre menni.
-                <br>
-                Véletlenszerű Hősök:A játékosok nem választhatják ki saját hőseiket, hanem véletlenszerűen kapnak egyet a rendelkezésre álló hősök közül.
-                A hősök kiválasztása a "ARAM" módhoz van optimalizálva, és a célja, hogy minden játékos egyenlő esélyekkel kezdje a játékot.
-                <br>
-                Gyors Játékmenet:Az ARAM meccsek általában rövidebbek, mint a hagyományos játékmódokban, mivel a játékosok gyorsabban találkoznak és kevésbé terjednek szét a pályán.
-                <br>
-                Esélyjáték és Kihívások:A véletlenszerű hősök miatt minden meccs egyedülálló, és a játékosoknak alkalmazkodniuk kell a hőseik képességeihez és szerepköréhez.
-                Az ARAM gyakran hangsúlyozza a kreativitást és a stratégiai alkalmazkodást a változó helyzetekhez.
-                <br>
-                ARAM Pénz és Butik:A játékosok a "Howling Abyss" nevű pályán játszanak, ahol az alapító esélyek és a kevésbé kötött játékmenet mellett egy speciális áruház is rendelkezésre áll.
-                Az ARAM-ban megszerezhető pénzzel a játékosok a "Butik" nevű boltban vásárolhatnak különböző tárgyakat, amelyek a hőseiket erősítik és segíthetnek a meccs során.
-                <br>
-                Az ARAM játékmód a versenyszellem és a szórakozás kombinációját kínálja, kiváló választás lehet egy laza és szórakoztató játékélményért. 
-              <hr>
-            </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row" id="E-sport">
-        <div class="col-md-6 col-12 order-last order-md-first">
-          <img src="img/e-sport.jpg" alt="E-sport" class="video">
-          <img src="img/20231026esport-league-of-legends.jpg" alt="Kupa" class="video">
-          <img src="img/_113158592_leagueoflegends_getty.jpg" alt="Meccs" class="video">
-          <img src="img/letöltés (2).jpg" alt="kep" class="video">
-        </div>
-        <div class="col-md-6 col-12">
-          <div class="display-6 py-3 order-first order-md-last">E-sport</div>
-        <p class="lead">
-          A League of Legends (LoL) e-sport története rendkívül gazdag és dinamikus, és a játék kiemelkedik az e-sport színtéren. Az alábbiakban összefoglalom a LoL e-sport történetét a kezdetektől napjainkig:
-          <br>
-          Kezdetek (2009–2010): A League of Legends e-sport színtere az első években kisebb rendezvényekből és online versenyekből állt. A Riot Games támogatta és ösztönözte a közösségi versenyzést, amelyek a játékosokat összehozták, és kialakították az alapjait a versenyszerű játéknak.
-          <br>
-          Season One World Championship (2010): 2010-ben az első nagyszabású világbajnokságot rendezték meg. A torneóra a DreamHack Winter fesztiválon került sor, és ekkoriban a díjalap összege is elkezdett növekedni. A Fnatic csapata nyerte meg az eseményt.
-          <br>
-          Rendes időszak (2011–2012): A következő években a LoL e-sport színtere gyorsan növekedett. Az Egyesült Államokban és Európában egyre több profi csapat alakult meg, és a régiók közötti rivalizálások elkezdődtek. A Riot Games szponzorált további nemzetközi versenyeket is, amelyek elősegítették a játék népszerűségét.
-          <br>
-          A legnagyobb torna növekedése (2013): 2013-ban a Riot Games meghozta a döntést, hogy a világbajnokság döntőjét a Staples Centerben, Los Angelesben rendezik meg. Ez egy óriási lépés volt az e-sport színtér számára, és a csúcspontot jelentette a LoL világbajnokságok elérhetőségében és népszerűségében.
-          <br>
-          Folyamatos növekedés és professzionalizáció (2014–2017): A LoL e-sport színtere tovább növekedett, és a játékot játszó csapatok és játékosok közötti verseny kiéleződött. A versenyszerű játék egyre nagyobb szakmai infrastruktúrát és szponzorokat vonzott, a csapatok pedig profibb körülmények között működhettek.
-          <br>
-          Franchise-rendszer bevezetése (2018): A 2018-as év jelentős mérföldkő volt a LoL e-sport történetében. A Riot Games bevezette a franchise-rendszert, amelynek célja a ligák stabilizálása és a regionális versenyek erősítése. Így születtek meg az észak-amerikai (LCS) és az európai (LEC) franchiserek, ahol a csapatoknak jogosultságuk van, és a liga egy hosszú távú vállalkozásként működik.
-          <br>
-          Világbajnokságok és nemzetközi versenyek (2018–napjainkig): A világbajnokságok továbbra is a LoL e-sport legkiemelkedőbb eseményei közé tartoznak, és azok mérete és látványossága továbbra is növekszik. A nemzetközi versenyek, mint a Mid-Season Invitational (MSI) és a Rift Rivals, szintén népszerűek, és növelik a különböző régiók közötti rivalizálást.
-          <br>
-          A League of Legends e-sport története dinamikus és folyamatosan változó. A Riot Games folyamatosan fejleszti a versenyszerű játék környezetét, hogy az még inkább támogassa a csapatokat és a játékosokat, miközben tovább növeli az események látványosságát és a verseny izgalmát.</p>
-          <hr>
-        </div>
-      </div>
-      <div class="row" id="Játékmenet">
-        <div class="col-md-6 col-12">
-          <div class="display-6 py-3">Játékmenet</div>
-        <p class="lead">A League of Legends (LoL) egy multiplayer online csatározás aréna (MOBA) játék, amelyben két csapat, a Kék és a Piros csapat, versenyez egymással. A játék célja a másik csapat Nexusának lerombolása, ami a térkép ellenkező végén található. Itt egy rövid összefoglaló a játékmenetről:
-          <br>
-          Csapatok és Championök: A játékosok választanak egy hőst, a "championt," amelyet irányítani fognak a játék során. Minden játékos csatlakozik egy csapathoz, és a csapatoknak összesen öt játékosa van.
-          <br>
-          Térkép és Sávok: A játék a Summoner's Rift térképén zajlik, amely három sávot (felső, középső, alsó) és egy dzsungelt tartalmaz. Minden sáv mentén találhatók toronyépületek, amelyek megvédik a Nexusot.
-          <br>
-          Dzsungel és Szörnyek: A térkép közepén található dzsungel terület számos szörnyet tartalmaz, mint például a Vörös- és Kékbuff, valamint a Sárkány és a Baron Nashor. A szörnyek elpusztításával a játékosok speciális buffokat szerezhetnek, amelyek előnyöket nyújtanak csapatuknak.
-          <br>
-          Csaták és Toronyharcok: A játékosok feladata, hogy harcoljanak egymással a sávok mentén, és próbálják lerombolni az ellenfél toronyépületeit. A toronyvédelem megtöréséhez a csapatoknak összehangoltan kell cselekedniük.
-          <br>
-          Cél: Nexus lerombolása: A végcél a Nexus lerombolása, ami a csapat bázisának középpontjában található. Ahhoz, hogy a Nexus sebzése kezdetét vegye, a csapatnak be kell törnie az ellenfél bázisába, és lerombolnia az ott található védelmi struktúrákat.
-          <br>
-          Fejlődés és Arany: A játékosok aranyat és tapasztalatot szereznek, miközben harcolnak és szörnyeket ölnek. Az aranyat arra lehet használni, hogy erősebb felszereléseket vásároljanak, a tapasztalat pedig a champion szintjét emeli. A fejlődés és a jó stratégia nélkülözhetetlen a sikerhez.
-          <br>
-          Meta és Stratégia: A játékosok általában különböző szerepeket vállalnak, mint például az ütő (AD Carry), támogató (Support), erdőjáró (Jungler), és harcos (Top, Mid). Az optimális csapatösszeállítás és stratégia meghatározza a játék kimenetelét.
-          <br>
-          A játékmenet tehát a csapatmunkára, stratégiai gondolkodásra, gyors reakciókra és egyéni játékoskészségekre épül. A League of Legends folyamatosan frissül és fejlődik a játékélmény javítása és a versenyszerű környezet támogatása érdekében</p>
-          <hr></div>
-        <div class="col-md-6 col-12"></div>
-      </div id="Profilom">
-      <div class="display-4 py-3">Profilom</div>
-      <div class="row">
-        <div class="col-md-6 col-12"></div>
-        <div class="col-md-6 col-12"></div>
-      </div>
-      <div class="row">
-        <div class="display-6 py-3">Kedvenc Hősöm - Yasuo</div>
-        <video loop muted autoplay id="alma">
-          <source src="img/mylivewallpapers.com-Yasuo-LOL.mp4">
-        </video>
-        <div class="">
-          
-        </div>
-      <div class="row">
-        <div class="col-md-6 col-12"></div>
-        <div class="col-md-6 col-12"></div>
-      </div>
-    </main> 
