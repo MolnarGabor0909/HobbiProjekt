@@ -54,3 +54,9 @@
     color: black;
     font-family: alcim;
 }
+.alma{
+    color: grey;
+}
+.alma:hover{
+    color: white;
+}
