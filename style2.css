@@ -1,6 +1,6 @@
 @font-face{
-    font-family: cim;
-    src: url(Bluesky.otf);
+    font-family: alcim;
+    src: url(RubikDoodleShadow-Regular.ttf);
 }
 
 #sav1{
@@ -32,4 +32,25 @@
     font-size: 190%;
     opacity: 90%;
     padding: 0;
+}
+@keyframes szivarvany {
+    0% { color: #ff0000; } 
+    16.666% { color: #ff7f00; } 
+    33.333% { color: #ffff00; } 
+    50% { color: #00ff00; } 
+    66.666% { color: #0000ff; } 
+    100% { color: #9400d3; } 
+}
+#csilivili {
+    animation: szivarvany 5s infinite both;
+    text-shadow:3px 3px 10px grey;
+    font-size: 25px;
+}
+#csilivili:hover{
+    cursor: url(img/db52b5ec9197647e5d5db65f638a8a58.webp), auto; 
+}
+.display-6, .display-3{
+    font-size: 50px;
+    color: black;
+    font-family: alcim;
 }

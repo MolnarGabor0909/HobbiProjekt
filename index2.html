@@ -12,10 +12,12 @@
 </head>
 
 <body class="p-0 m-0">
-    <header>
+    <header id="top">
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+                <a class="navbar-brand" id="csilivili" href="https://www.leagueoflegends.com/hu-hu/" target="_blank">
+                    League of Legends
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                     aria-label="Toggle navigation">
@@ -31,7 +33,8 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="active text-decoration-none text-secondary h2" aria-current="page" href="#">Home</a>
+                                <a class="active text-decoration-none text-secondary h2" aria-current="page"
+                                    href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#moba" id="sav2">MOBA kezdeti korszaka</a> <br />
@@ -56,68 +59,247 @@
                                 <a href="#fejlesztes" id="sav2">A Játék fejlesztése</a> <br />
                             </li>
                         </ul>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-success" type="submit">Search</button>
-                        </form>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
+    </div>
     <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 text-center">
+                <div class="display-3">Kialakulása</div>
+                <div class="lead">A League of Legends tehát nemcsak egy sikeres játék, hanem egy teljes mértékben kialakult sajátos univerzum.</div> 
+                <img src="img/1_JzJBaliMfb9R_kEAPQaw5g.png" alt="" width="80%" class="pt-3">
+            </div>
+            <div class="col-12 col-md-4 pt-3 d-flex justify-content-center">
+        <div class="card" style="width: 90%; height: 70%; ">
+            <img src="img/kialakulas1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">További oldalak</h5>
+              <p class="card-text">A következő lapokon pár dolgot tudhat meg a LoL-ról. A "Bővebben" gombal több információt megtudhat ezekről a pontokról.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Története
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">A League of Legends története egy gazdag és mély univerzum kialakítását mutatja be
+                    </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Játékinfók
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">A League of Legends játékmenete rendkívül mély és taktikai, ahol a csapatmunka, stratégia és egyéni készségek mind meghatározóak.
+                      </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Profilom
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Itt megosztom veled klipjeimet, szintjeimet, és a megszerzett badge-eket.
+                        </div>
+                      </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row"></div>
+        <hr />
         <main>
-            <div id="moba" class="h2">MOBA kműfajának kezdeti korszaka</div>
-            <p>
-                A League of Legends (LoL) kialakulása szorosan kapcsolódik a
-                multiplayer online battle arena (MOBA) műfajának fejlődéséhez. A MOBA
-                játékok eredete a Warcraft III: Reign of Chaos nevű valós idejű
-                stratégiai játékhoz vezethető vissza, ahol a Defense of the Ancients
-                (DotA) mod kezdetben formálódott.
-            </p>
-
-            <div class="h2" id="dota">A DotA hozzájárulása</div>
-            A DotA a Warcraft III térképeinek módosításával jött létre, és a
-            játékosok különböző hősöket irányíthattak egy arénán belül. Ez az ötlet
-            később meghatározóvá vált a MOBA műfajában, és inspirációt nyújtott a
-            League of Legends alapítóinak.
-
-            <div class="h2" id="riot">Riot Games Alapítása és Első Projektek</div>
-            3. Riot Games Alapítása és Első Projektek A League of Legends mögött
-            álló Riot Games 2006-ban alakult Los Angelesben. A vállalat alapítói,
-            Marc Merrill és Brandon Beck, szenvedélyesen hitték, hogy a játékiparban
-            megváltoztathatják a játékosok és a fejlesztők kapcsolatát. Az első
-            időszakban a Riot Games kisebb projekteken dolgozott, de hamar rájöttek,
-            hogy a MOBA műfajában lehetőség van valami forradalmian új
-            létrehozására.
-
-            <div class="h2" id="megalkotas">League of Legends megalkotása</div>
-            A League of Legends kifejlesztése 2006-ban kezdődött, és a játék
-            hivatalosan 2009-ben került kiadásra. A tervezők és fejlesztők számos
-            újítást vezettek be, beleértve a karakterek és a térképek
-            változatosságát, a rangsorolt mérkőzéseket, valamint az ingyenesen
-            játszható, de kosmetikai termékeket értékesítő üzleti modellt.
-
-            <div class="h2" id="jatekmenet">A játékterv és a játékmenet</div>
-            A League of Legends központi eleme a csapatok elleni küzdelem, ahol
-            minden játékos egyedi hőst irányít, az úgynevezett "championt". A térkép
-            célja, hogy a játékosok elpusztítsák az ellenfél épületeit, és megvédjék
-            sajátjukat. A játékmenet stratégiai döntéseken, csapatmunkán és egyéni
-            készségeken alapul.
-
-            <div class="h2" id="sikerek">Globális sikerek és E-sport színtér</div>
-            A League of Legends hamar világszerte népszerűvé vált, és hatalmas
-            játékosközösséget vonzott. A játék különlegessége az e-sport terén is
-            megmutatkozott, és a League of Legends World Championship
-            (világbajnokság) az egyik legnagyobb e-sport esemény lett.
-
-            <div class="h2" id="fejlesztes">A Játék Folyamatos Fejlesztése</div>
-            A Riot Games folyamatosan fejleszti és frissíti a League of Legends
-            tartalmát. Rendszeres új hősök, térképek, események és játékelemek
-            kerülnek bevezetésre, hogy a játékosok mindig új kihívásokkal találják
-            szemben magukat.
+            <div class="row">
+                <div class="col-md-7">
+                    <div id="moba" class="display-6 py-2 pt-md-5">
+                        MOBA műfajának kezdeti korszaka
+                    </div>
+                    <p class="lead">
+                        A League of Legends (LoL) kialakulása szorosan kapcsolódik a
+                        multiplayer online battle arena (MOBA) műfajának fejlődéséhez. A
+                        MOBA játékok eredete a Warcraft III: Reign of Chaos nevű valós
+                        idejű stratégiai játékhoz vezethető vissza, ahol a Defense of the
+                        Ancients (DotA) mod kezdetben formálódott.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <figure class="figure">
+                        <img src="img/letöltés.png" class="figure-img img-fluid rounded" alt="map" width="500px" />
+                        <figcaption class="figure-caption">
+                            Online többjátékos csatamező
+                        </figcaption>
+                    </figure>
+                </div>
+                <hr class="pb-md-5" />
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="display-6 py-2 order-md-last" id="dota">
+                        A DotA hozzájárulása
+                    </div>
+                    <p class="lead">
+                        A MOBA műfajának előzményei a Warcraft III: Reign of Chaos nevű
+                        valós idejű stratégiai játékhoz kötődnek. Itt jött létre a Defense
+                        of the Ancients (DotA) mod, amely a játék térképét módosítva
+                        kínált egy új és izgalmas játékélményt. A DotA volt az első olyan
+                        kísérlet, ahol a játékosok különböző hősöket irányíthattak egy
+                        arénán belül, és ez a koncepció volt az alapja a későbbi MOBA
+                        játékoknak.
+                    </p>
+                </div>
+                <div class="col-md-7 order-md-first">
+                    <figure class="figure">
+                        <img src="img/dota.jpg" class="figure-img img-fluid rounded" alt="map" height="500px" />
+                        <figcaption class="figure-caption">
+                            Dota videojáték-sorozat
+                        </figcaption>
+                    </figure>
+                </div>
+                <hr class="pb-md-5" />
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="display-6 py-2" id="riot">
+                        Riot Games alapítása és első projektek
+                    </div>
+                    <p class="lead">
+                        Riot Games Alapítása és Első Projektek A League of Legends mögött
+                        álló Riot Games 2006-ban alakult Los Angelesben. A vállalat
+                        alapítói, Marc Merrill és Brandon Beck, szenvedélyesen hitték,
+                        hogy a játékiparban megváltoztathatják a játékosok és a fejlesztők
+                        kapcsolatát. Az első időszakban a Riot Games kisebb projekteken
+                        dolgozott, de hamar rájöttek, hogy a MOBA műfajában lehetőség van
+                        valami forradalmian új létrehozására.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <figure class="figure">
+                        <img src="img/riot games logo.jpg" class="figure-img img-fluid rounded" alt="map"
+                            height="500px" />
+                        <figcaption class="figure-caption">Riot Games logo</figcaption>
+                    </figure>
+                </div>
+                <hr class="pb-md-5" />
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="display-6 py-2 order-md-last" id="megalkotas">
+                        League of Legends megalkotása
+                    </div>
+                    <p class="lead">
+                        A League of Legends kifejlesztése 2006-ban kezdődött, és a játék
+                        hivatalosan 2009-ben került kiadásra. A tervezők és fejlesztők
+                        számos újítást vezettek be, beleértve a karakterek és a térképek
+                        változatosságát, a rangsorolt mérkőzéseket, valamint az ingyenesen
+                        játszható, de kosmetikai termékeket értékesítő üzleti modellt.
+                    </p>
+                </div>
+                <div class="col-md-7 order-md-first">
+                    <figure class="figure">
+                        <img src="img/letöltés-removebg-preview.png" class="figure-img img-fluid rounded" alt="map"
+                            width="500px"/>
+                        <figcaption class="figure-caption">League of legends</figcaption>
+                    </figure>
+                </div>
+                <hr class="pb-md-5" />
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="display-6 py-2" id="jatekmenet">
+                        A játékterv és a játékmenet
+                    </div>
+                    <p class="lead">
+                        A League of Legends központi eleme a csapatok elleni küzdelem,
+                        ahol minden játékos egyedi hőst irányít, az úgynevezett
+                        "championt". A térkép célja, hogy a játékosok elpusztítsák az
+                        ellenfél épületeit, és megvédjék sajátjukat. A játékmenet
+                        stratégiai döntéseken, csapatmunkán és egyéni készségeken alapul.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <figure class="figure">
+                        <img src="img/randomgameplay.png" class="figure-img img-fluid rounded" alt="map"
+                            height="500px" />
+                        <figcaption class="figure-caption">Random játékmenet</figcaption>
+                    </figure>
+                </div>
+                <hr class="pb-md-5" />
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="display-6 py-2" id="sikerek">
+                        Globális sikerek és E-sport színtér
+                    </div>
+                    <p class="lead">
+                        A League of Legends hamar világszerte népszerűvé vált, és hatalmas
+                        játékosközösséget vonzott. A játék különlegessége az e-sport terén
+                        is megmutatkozott, és a League of Legends World Championship
+                        (világbajnokság) az egyik legnagyobb e-sport esemény lett.
+                    </p>
+                </div>
+                <div class="col-md-7 order-md-first">
+                    <figure class="figure">
+                        <img src="img/e-sport.jpg" class="figure-img img-fluid rounded" alt="map" height="500px" />
+                        <figcaption class="figure-caption">E-sport</figcaption>
+                    </figure>
+                </div>
+                <hr class="pb-md-5" />
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="display-6 py-2" id="fejlesztes">
+                        A játék folyamatos fejlesztése
+                    </div>
+                    <p class="lead">
+                        A Riot Games folyamatosan fejleszti és frissíti a League of
+                        Legends tartalmát. Rendszeres új hősök, térképek, események és
+                        játékelemek kerülnek bevezetésre, hogy a játékosok mindig új
+                        kihívásokkal találják szemben magukat.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <figure class="figure">
+                        <img src="img/league of legends asd.jpg" class="figure-img img-fluid rounded" alt="map"
+                            height="500px" />
+                        <figcaption class="figure-caption">Karakterek</figcaption>
+                    </figure>
+                </div>
+                <hr class="pb-md-5" />
+            </div>
         </main>
     </div>
+
+    <footer class="container-fluid text-bg-dark py-5">
+        <div class="container text-center">
+            <nav>
+                <a href="index.html" class="text-decoration-none text-secondary px-3 lead">Home</a>
+                <a href="index3.html" class="text-decoration-none text-secondary px-3 lead">Történet</a>
+                <a href="index4.html" class="text-decoration-none text-secondary px-3 lead">Játékinfók</a>
+                <a href="index5.html" class="text-decoration-none text-secondary px-3 lead">Profilom</a>
+                <a href="#top" class="text-decoration-none text-secondary px-3 pl-md-5 lead">Vissza az elejére</a>
+             </nav>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

@@ -98,7 +98,7 @@ animation: navbar 1s both alternate;
 }
 @keyframes gombaa{
     from{font-weight:bold;background-color: #fff1f100;color: #170bbd;border:2px solid #170bbd;box-shadow: 4px 4px 10px #170bbd, -4px -4px 10px #170bbd;border-radius: 10px;font-size: 21px; transform: translateY(0px);}
-    to{font-weight:bold;color:white;background-color: #170bbd;border: #170bbd solid 2px;box-shadow: 4px 4px 10px #170bbd, -4px -4px 10px #170bbd;border-radius: 10px; transform: translateY(6px);}
+    to{font-weight:bold;color:white;background-color: #000000;border: #202020 solid 2px;box-shadow: 4px 4px 10px #202020, -4px -4px 10px #202020;border-radius: 10px; transform: translateY(6px);}
 }
 .gomba{
     font-weight:bold;
@@ -128,7 +128,7 @@ animation: navbar 1s both alternate;
     border-image-width: 8px;
     border-style: solid;
     border-width: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 #card-2{
     background-color: var(--bg-color-2);
@@ -184,3 +184,18 @@ animation: navbar 1s both alternate;
     --gradient-nine:rgb(245, 45, 190);
     --gradient-ten:rgb(236, 159, 60);
 }
+#footericon{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgba(128, 128, 128, 0);
+    padding: 10px;
+    margin: 5px;
+}
+#footericon:hover{
+    animation: footericon 1s both alternate;
+}
+@keyframes footericon{
+    from{}
+    to{border: none;background-color: black;border-radius: 10px;}}
