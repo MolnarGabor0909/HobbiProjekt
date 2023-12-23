@@ -1,23 +1,22 @@
 @font-face{
-    font-family: alcim;
-    src: url(RubikDoodleShadow-Regular.ttf);
+    font-family: asd;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
 }
-
-#sav1{
-    color: white;
-    opacity: 70%;
-    padding-left: 10px;
-    font-size: 230%;
-    padding-bottom: 5px;
+@font-face{
+    font-family: szoveg;
+    src: url(JosefinSlab-VariableFont_wght.ttf);
 }
-#sav1:hover{
-    font-size: 250%;
-    opacity: 100%;
+#szoveg{
+    font-family: szoveg;
+    font-size: 130%;
+}
+.display-6{
+    font-family: asd;
 }
 #sav2{
     text-decoration: none;
     font-size: 90%;
-    color: white;
+    color: grey;
     opacity: 50%;
     padding-left: 20px;
     padding-bottom: 5px;
@@ -47,11 +46,6 @@
 }
 #csilivili:hover{
     cursor: url(img/db52b5ec9197647e5d5db65f638a8a58.webp), auto; 
-}
-.display-6, .display-3{
-    font-size: 50px;
-    color: black;
-    font-family: alcim;
 }
 .alma{
     color: grey;
