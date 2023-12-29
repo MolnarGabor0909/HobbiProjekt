@@ -1,0 +1,97 @@
+@font-face{
+    font-family: url(SingleDay-Regular.ttf);
+    src: asd;
+}
+@font-face{
+    font-family: url(PlayfairDisplay-VariableFont_wght.ttf);
+    src: alma;
+}
+.nav-link{
+    font-size: 120%;
+    font-family: alma;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgba(223, 223, 223, 0.466);
+    border-radius: 10px;
+}
+.display-1, .dio1{
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font-family: asd;
+    color: rgba(255, 255, 255, 0.932);
+    font-weight: 700;
+}
+.display-5, .dio2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    font-family: asd;
+    color: rgb(247, 160, 0);
+    font-weight: 400;
+}
+.asdasd{
+    background-image: url(img/Yasuo_0.jpg);
+}
+.inci{
+    background-image: url(img/yone___league_of_legends_by_kimnhafriday_dg93io4-fullview.jpg);
+}
+.barack{
+    background-image: url(img/asd.jpg);
+}
+.asdasd, .barack, .inci{
+    box-shadow: 2px 3px 30px rgba(255, 255, 255, 0.425);
+    opacity: 80%;
+    padding-left: 0;
+    padding-right: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    text-align: center; 
+}
+.dio1{
+    padding-top: 50px;
+}
+.dio1, .dio2{
+    text-align: center;
+}
+.macska{
+padding-bottom: 10px;
+display: block;
+ color: gray;
+ font-size: 200%;
+}
+.karika:hover{
+    animation: kutya 1s both alternate;
+}
+@keyframes kutya{
+    from{border:none; filter: none; padding: 0;}
+    to{border: 2px white solid; filter: grayscale(100%); padding: 5px;}
+}
+:root{
+    --bg-color-2:rgb(204, 188, 99);
+    --bg-color-1: rgb( 255,215,0);
+}
+.farkas {
+    opacity: 80%;
+    font-size: 150%;
+    font-family: asd;
+    color: var(--bg-color-2);
+    padding: 20px;
+    border-image: linear-gradient(45deg, var(--bg-color-1), var(--bg-color-2));
+    border-image-slice: 4;
+    border-image-width: 6px;
+    border-style: solid;
+    border-width: 8px;
+}
+.csiga{
+    text-align: center;
+    display: block;
+}
+.cicamica{
+    color: teal;
+    background-color: rgba(245, 222, 179, 0.863);
+}
