@@ -42,7 +42,6 @@
 }
 .asdasd, .barack, .inci{
     box-shadow: 2px 3px 30px rgba(255, 255, 255, 0.425);
-    opacity: 80%;
     padding-left: 0;
     padding-right: 0;
     background-size: cover;
@@ -50,10 +49,13 @@
     background-repeat: no-repeat;
     padding-top: 190px;
     padding-bottom: 190px;
-    text-align: center; 
+    text-align: center;
+    animation: asd linear both;
+    animation-timeline: view(block);
+    animation-range: cover 40% cover 90%;
 }
 .dio1{
-    padding-top: 50px;
+    padding-top: 200px;
 }
 .dio1, .dio2{
     text-align: center;
@@ -95,3 +97,38 @@ display: block;
     color: teal;
     background-color: rgba(245, 222, 179, 0.863);
 }
+@keyframes asd{
+    from{}
+    to{opacity: 0%;}
+}
+@keyframes asdasd{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;;
+    }
+}
+.miauuu{
+    animation: asdasd linear both;
+    animation-timeline: view(block);
+    animation-range: cover 10% cover 70%;
+}
+.kepecske {
+    transition: transform 0.5s, filter 0.5s;
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+  
+  .kepecske:hover {
+    transform: scale(0.8);
+    filter: grayscale(100%)
+  }
+  .figure-caption{
+    color: grey;
+  }
+  .kapanyél{
+    background-image: url(img/banner.png);
+    background-position: center;
+    background-size: cover;
+  }
