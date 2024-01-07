@@ -24,7 +24,7 @@ footer{
     position: absolute;
 }
 #asd{
-    color: rgba(255, 255, 255, 0.164);
+    color: rgba(255, 255, 255, 0.685);
     display: inline-block;
 }
 #asd:hover{
@@ -65,9 +65,9 @@ animation: navbar 1s both alternate;
 .gombaa{
     font-weight:bold;
     background-color: #fff1f100;
-    color: #170bbd;
-    border:2px solid #170bbd;
-    box-shadow: 4px 4px 10px #170bbd, -4px -4px 10px #170bbd;
+    color: black;
+    border:2px solid black;
+    box-shadow: 4px 4px 10px black, -4px -4px 10px black;
     border-radius: 10px;
     font-size: 21px;
 
@@ -81,8 +81,8 @@ animation: navbar 1s both alternate;
     opacity: 100%;
 }
 @keyframes navbar {
-    from{ font-size: 100%;}
-    to{color: rgba(255, 255, 255, 0.514); font-size: 120%; transform: translateY(6px);}
+    from{ font-size: 100%; border: none; background-color: none; border-radius: none;}
+    to{color: rgba(255, 255, 255, 0.514); font-size: 120%; transform: translateY(6px); border: 2px solid rgba(128, 128, 128, 0.3); border-radius: 30px; background-color: rgba(128, 128, 128, 0.3);}
 }
 @keyframes szivarvany {
     0% { color: #ff0000; } 
@@ -97,8 +97,8 @@ animation: navbar 1s both alternate;
     to{font-weight:bold;color:white;background-color: #3486e4;border: #3486e4 solid 2px;box-shadow: 4px 4px 10px #3486e4, -4px -4px 10px #3486e4;border-radius: 10px;}
 }
 @keyframes gombaa{
-    from{font-weight:bold;background-color: #fff1f100;color: #170bbd;border:2px solid #170bbd;box-shadow: 4px 4px 10px #170bbd, -4px -4px 10px #170bbd;border-radius: 10px;font-size: 21px; transform: translateY(0px);}
-    to{font-weight:bold;color:white;background-color: #000000;border: #202020 solid 2px;box-shadow: 4px 4px 10px #202020, -4px -4px 10px #202020;border-radius: 10px; transform: translateY(6px);}
+    from{font-weight:bold;background-color: #fff1f100;color: black;border:2px solid black;box-shadow: 4px 4px 10px black, -4px -4px 10px black;border-radius: 10px;font-size: 21px; transform: translateY(0px);}
+    to{font-weight:bold;color:white;background-color: #000000;border: #202020 solid 2px;box-shadow: 4px 4px 10px #202020, -4px -4px 10px #202020;border-radius: 10px; transform: translateY(-6px);}
 }
 .gomba{
     font-weight:bold;

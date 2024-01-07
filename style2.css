@@ -50,12 +50,19 @@
 }
 .display-6, .display-3{
     font-size: 50px;
-    color: black;
+    color: wheat;
     font-family: alcim;
 }
 .alma{
     color: grey;
 }
 .alma:hover{
+    color: white;
+}
+body{
+    background-color: rgb(54, 54, 54);
+    color: rgba(245, 222, 179, 0.623);
+}
+.figure-caption{
     color: white;
 }
