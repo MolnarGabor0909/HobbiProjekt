@@ -8,9 +8,6 @@
     from{color: gray;}
     to{color: whitesmoke;}
 }
-nav{
-    background-color: black;
-}
 .asdasd{
     color: gray;
     width: 40px;
@@ -41,5 +38,5 @@ body{
     color: grey;
 }
 .alma:hover{
-    color: white;
+    animation: kiscicus 1s both alternate; 
 }
